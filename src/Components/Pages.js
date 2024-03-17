@@ -6,7 +6,7 @@ const Pages = () => {
   return (
     
 
-    <div  className=" flex flex-row justify-between  border-2 py-2 mt-2 mb-4 min-w-[500px] rounded-lg">
+    <div  className=" flex flex-row justify-between  border-2 py-2 mt-2 mb-4 min-w-[500px] max-sm:w-[380px] rounded-lg">
         <div className='p-2'>
             {
                 page  > 1 && (<button className='px-2 py-1 border-2 border-gray-400 rounded-lg
