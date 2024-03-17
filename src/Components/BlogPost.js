@@ -35,9 +35,9 @@ const BlogPost = () => {
                             <div className='text-justify mb-1 mt-2'>
                                 {posts.content}
                             </div>
-                                <div className='cursor-pointer text-sm underline  text-blue-600 hover:text-blue-900 '>
+                                <div className='cursor-pointer text-sm underline  text-blue-600  '>
                             {posts.tags && posts.tags.map((tag, index) => (
-                                <span className='px-1' key={index}>#{tag}</span>
+                                <span className='px-1 hover:text-blue-900' key={index}>#{tag}</span>
                             ))}
                         </div>
                             
